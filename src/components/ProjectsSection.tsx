@@ -39,7 +39,7 @@ export default function ProjectsSection() {
 
           {/* Project points */}
           {projects.map((project, index) => {
-            const isHovered = hoveredId === project.id;
+            const isHovered = hoveredId === project.id.toString();
 
             return (
               <motion.div
@@ -49,7 +49,7 @@ export default function ProjectsSection() {
                 initial={{ scale: 0, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ delay: index * 0.1, duration: 0.5 }}
-                onMouseEnter={() => setHoveredId(project.id)}
+                onMouseEnter={() => setHoveredId(project.id.toString())}
                 onMouseLeave={() => setHoveredId(null)}
               >
                 {/* Point marker */}

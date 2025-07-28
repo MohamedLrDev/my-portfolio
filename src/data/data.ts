@@ -12,12 +12,12 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    name: 'AI Dashboard',
+    name: 'Sahara Quad',
     tech: 'Next.js, Python, TensorFlow',
     x: '65%',
     y: '45%',
     liveDemo: 'https://yourdomain.com/ai-dashboard',
-    github: 'https://github.com/yourusername/ai-dashboard',
+    github: 'https://github.com/MohamedLrDev/Sahara_Quad',
   },
   {
     id: 3,
